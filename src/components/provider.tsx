@@ -23,6 +23,7 @@ const WalletProvider: FC<{ children: ReactNode }> = ({ children }) => {
       new PhantomWalletAdapter(),
       new SolflareWalletAdapter({ network: "devnet" as any }),
     ],
+
     []
   );
 
